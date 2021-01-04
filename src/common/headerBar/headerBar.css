@@ -1,0 +1,76 @@
+.headerBar {
+    background-color: #63666a;
+    color: black;
+
+    display: flex;
+    height: 100px;
+    min-height: 100px;
+    max-height: 100px;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.orangeBar {
+    background-color: #ff4b01;
+    position: relative;
+    width: 15px;
+    min-width: 15px;
+    height: 35px;
+    border: 0;
+    margin-left: 1em;
+    margin-right: 15px;
+    top: 35px;
+}
+
+.titleText {
+    position: relative;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: 3em;
+}
+
+.titleText, #integrity {
+    color: #ff4b01;
+    margin-right: 15px;
+}
+
+.titText, #hub {
+    color: white;
+}
+
+.logo {
+    position: relative;
+    display: flex;
+    margin-left: 10em;
+    align-self: center;
+    height: 60%;
+}
+
+.logo img {
+    width: auto;
+    height: 100%;
+    margin-right: -2px;
+}
+
+.userName {
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    justify-content: flex-end;
+    margin-right: 2em;
+}
+
+.baeLogo {
+    position: relative;
+    color: cornflowerblue;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 1em;
+    width: 150px;
+    min-width: 150px;
+}

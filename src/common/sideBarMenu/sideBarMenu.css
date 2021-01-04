@@ -1,0 +1,158 @@
+/* Side Bar */
+.sideBarMenuExpanded {
+    display: flex;
+    flex-direction: column;
+    background-color: #d0d3d4;
+    color: black;
+    width: 17em;
+    max-width: 17em;
+    min-width: 17em;
+    overflow: hidden;
+}
+
+.sideBarMenuCollapsed {
+    display: flex;
+    flex-direction: column;
+    background-color: #d0d3d4;
+    color: black;
+    width: 4em;
+    max-width: 4em;
+    min-width: 4em;
+    overflow: hidden;
+}
+
+/* Header */
+.menuHeaderExpanded {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2em;
+    height: 8em;
+    max-height: 8em;
+    min-height: 8em;
+}
+
+.menuHeaderCollapsed {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    height: 8em;
+    max-height: 8em;
+    min-height: 8em;
+    align-content: center;
+    justify-content: center;
+}
+
+.headerIconExpanded {
+    position: relative;
+    display: flex;
+    margin-left: 1em;
+    align-self: center;
+    height: 5em;
+}
+
+.headerIconCollapsed {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 3em;
+    width: 100%;
+}
+
+.headerIconExpanded img {
+    width: auto;
+    height: 100%;
+}
+
+.headerIconCollapsed img {
+    width: auto;
+    height: 100%;
+}
+
+.headerText {
+    position: relative;
+    margin-left: 1em;
+    display: flex;
+    align-items: center;
+    font-size: 1.5em;
+    line-height: 1em;
+}
+
+
+/* Menu Content */
+.menuContent {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+
+.menuItem {
+    display: flex;
+    flex-direction: row;
+    height: 3em;
+    border-top-color: black;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin-bottom: -1px;
+    transition: background-color 0.25s;
+}
+
+.menuItem:hover {
+    background-color: #a1a4a5;
+}
+
+.menuItem:last-child {
+    display: flex;
+    flex-direction: row;
+    height: 3em;
+    border-top-color: black;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin-bottom: 0;
+}
+
+
+.menuItemIcon {
+    position: relative;
+    margin-left: 1em;
+    align-self: center;
+    height: 2em;
+}
+
+.menuItemIcon img {
+    width: auto;
+    height: 100%;
+}
+
+.menuItemText {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    font-size: 1em;
+    margin-left: 1em;
+    text-wrap: none;
+}
+
+/* Footer */
+.menuFooter {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 1em;
+    height: 100%;
+}
+
+.menuFooterControl {
+    align-self: flex-end;
+    height: 1.5em;
+}
+
+.menuFooterControl img {
+    width: auto;
+    height: 100%;
+}

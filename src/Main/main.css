@@ -1,0 +1,46 @@
+.mainPage {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 100%;
+}
+
+.mainAndMenu {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.mainPageContent {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 1em;
+    width: 100%;
+}
+
+.mainPageItem {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    margin-left: 1em;
+    border-radius: 8px;
+    height: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.textField {
+    margin-bottom: 10px;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-radius: 8px;
+    height: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
