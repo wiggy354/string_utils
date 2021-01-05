@@ -5,6 +5,11 @@ Feature: Determine length of given string
     When no string has been entered
     Then the resulting length description is set to is empty
 
+  Scenario: show the value for an empty string after deletion
+    Given main page is displayed
+    When user enters qwerty and then deletes it
+    Then the resulting length description is set to is empty
+
   Scenario: Shows length as a single char when just one char entered
     Given main page is displayed
     When a single character has been entered

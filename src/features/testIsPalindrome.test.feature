@@ -1,5 +1,10 @@
 Feature: Check for Palindrome
 
+  Scenario: show the value for an empty string after deletion
+    Given main page is displayed
+    When user enters qwerty and then deletes it
+    Then the description string is is empty
+
   Scenario Outline: Show text is a palindrome or not
     Given main page is displayed
     When user enters <strInput>
