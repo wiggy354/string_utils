@@ -1,3 +1,4 @@
+/* istanbul ignore file */
 class sessionData {
     static userName = null;
     static authToken = null;

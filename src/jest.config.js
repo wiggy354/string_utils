@@ -1,3 +1,4 @@
+/* istanbul ignore file */
 /*
  * For a detailed explanation regarding each configuration property, visit:
  * https://jestjs.io/docs/en/configuration.html
@@ -27,8 +28,9 @@ module.exports = {
 
   // An array of regexp pattern strings used to skip coverage collection
   // coveragePathIgnorePatterns: [
-  //   "/node_modules/"
-  // ],
+  //   "node_modules",
+  //   "index.js", "jest.config.js", "sessionData.js"
+  //],
 
   // Indicates which provider should be used to instrument code for coverage
   coverageProvider: "v8",
@@ -85,7 +87,7 @@ module.exports = {
   // moduleNameMapper: {},
 
   // An array of regexp pattern strings, matched against all module paths before considered 'visible' to the module loader
-  // modulePathIgnorePatterns: [],
+  //modulePathIgnorePatterns: ['src/index.js', 'src/jest.config.js', 'src/session/sessionData.js'],
 
   // Activates notifications for test results
   // notify: false,
